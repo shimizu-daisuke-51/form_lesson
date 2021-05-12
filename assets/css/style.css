@@ -217,7 +217,7 @@
   border-radius: 50%;
 }
 
-.gender-inner:checked, gender-inner span::after {
+.gender-inner:checked+span::after {
   content: '';
   position: absolute;
   left: 4px;
