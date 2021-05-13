@@ -108,14 +108,14 @@
   margin: 20px 0;
 }
 
-.account-text {
+.account p {
   display: inline-block;
   position: relative;
   padding: 0 10px;
   background-color: #fff;
 }
 
-.account::before {
+.account:before {
   content: '';
   position: absolute;
   left: 0;
@@ -141,7 +141,7 @@
   margin-bottom: 20px;
 }
 
-.label-text {
+.form-text {
   display: block;
   margin-bottom: 5px;
   font-size: 12px;
